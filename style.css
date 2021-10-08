@@ -51,6 +51,7 @@
 body{
     width: 100%;
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .carousel-div{
@@ -98,4 +99,15 @@ body{
     width: 100%;
     height: 100%;
 
+}
+
+.product-container{
+    width: 80%;
+    height: 500px;
+    display: flex;
+}
+.product-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: "center";
 }
