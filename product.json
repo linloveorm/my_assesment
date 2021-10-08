@@ -1,116 +1,114 @@
-{
-    "product": [
-        {
-            "name": "iphone 11",
-            "brand": "apple",
-            "description": "iphone 11",
-            "price": "280$",
-            "color": "Red",
-            "image": "https://img10.jd.co.th/n0/jfs/t55/192/767663439/113912/98bd8003/61232f1bNaa29b427.jpg!q70.jpg"
-        },
-        {
-            "name": "iphone 11",
-            "brand": "apple",
-            "description": "iphone 11",
-            "price": "280$",
-            "color": "Black",
-            "image": "https://img10.jd.co.th/n0/jfs/t43/87/780046278/106478/caf35b62/611f8aceNe51d3cb7.jpg!q70.jpg"
-        },
-        {
-            "name": "iphone 11",
-            "brand": "apple",
-            "description": "iphone 11",
-            "price": "280$",
-            "color": "Green",
-            "image": "https://img10.jd.co.th/n0/jfs/t52/99/777305827/106314/99e27fda/611f8b4aN7e4ec281.jpg!q70.jpg"
-        },
-        {
-            "name": "iphone 11",
-            "brand": "apple",
-            "description": "iphone 11",
-            "price": "280$",
-            "color": "Yellow",
-            "image": "https://img10.jd.co.th/n0/jfs/t43/129/770491641/110945/84055f02/611f8b08Na25619d6.jpg!q70.jpg"
-        },
-        {
-            "name": "iphone 11",
-            "brand": "apple",
-            "description": "iphone 11",
-            "price": "280$",
-            "color": "Purple",
-            "image": "https://img10.jd.co.th/n0/jfs/t43/151/758298457/105913/cf5a969a/611f8b22Nf172d809.jpg!q70.jpg"
-        },
-        {
-            "name": "iphone 11",
-            "brand": "apple",
-            "description": "iphone 11",
-            "price": "280$",
-            "color": "White",
-            "image": "https://img10.jd.co.th/n0/jfs/t16/43/9665656615/103171/aee17b99/611f8ae3N75fac503.jpg!q70.jpg"
-        },
-        {
-            "name": "Samsung Z Fold3",
-            "brand": "samsung",
-            "description": "Samsung Z Fold3",
-            "price": "350$",
-            "color":"Phantom Black",
-            "image": ""
-        },
-        {
-            "name": "Samsung Z Fold3",
-            "brand": "samsung",
-            "description": "Samsung Z Fold3",
-            "price": "350$",
-            "color":"Phantom Silver",
-            "image": ""
-        },
-        {
-            "name": "Samsung Z Fold3",
-            "brand": "samsung",
-            "description": "Samsung Z Fold3",
-            "price": "350$",
-            "color":"Phantom Green",
-            "image": ""
-        },
-        {
-            "name": "HUAWEI P40 PRO",
-            "brand": "huawei",
-            "description": "huawei p40 pro+",
-            "price": "250$",
-            "color": "Black",
-            "image": "https://img10.jd.co.th/n0/jfs/t19/6/3189225719/47230/815d737/5f02ed49N89cc1e42.jpg!q70.jpg"
-        },
-        {
-            "name": "HUAWEI P40 PRO",
-            "brand": "huawei",
-            "description": "huawei p40 pro+",
-            "price": "250$",
-            "color": "Silver",
-            "image": "https://img10.jd.co.th/n0/jfs/t31/100/2893765825/47605/f5f620c5/5f02ed49N5f15c0f6.jpg!q70.jpg"
-        },
-        {
-            "name": "HUAWEI P40 PRO",
-            "brand": "huawei",
-            "description": "huawei p40 pro+",
-            "price": "250$",
-            "color": "White",
-            "image": "https://img10.jd.co.th/n0/jfs/t19/102/3183502659/47789/11792ba6/5f02ed49N1b502440.jpg!q70.jpg"
-        },
-        {
-            "name": "HUAWEI P40 PRO",
-            "brand": "huawei",
-            "description": "huawei p40 pro+",
-            "price": "250$",
-            "color": "Blue",
-            "image": "https://img10.jd.co.th/n0/jfs/t4/120/3197656493/49779/f4704647/5f02ed49N63f37d5b.jpg!q70.jpg"
-        },
-        {
-            "name": "HUAWEI P40 PRO",
-            "brand": "huawei",
-            "description": "huawei p40 pro+",
-            "price": "250$",
-            "color": "Gold",
-            "image": "https://img10.jd.co.th/n0/jfs/t19/104/3183553604/46353/abffa083/5f02ed49N578a7bc2.jpg!q70.jpg"
-        }        
-    ]
-}
+[
+    {
+        "name": "iphone 11",
+        "brand": "apple",
+        "description": "iphone 11",
+        "price": "280$",
+        "color": "Red",
+        "image": "https://img10.jd.co.th/n0/jfs/t55/192/767663439/113912/98bd8003/61232f1bNaa29b427.jpg!q70.jpg"
+    },
+    {
+        "name": "iphone 11",
+        "brand": "apple",
+        "description": "iphone 11",
+        "price": "280$",
+        "color": "Black",
+        "image": "https://img10.jd.co.th/n0/jfs/t43/87/780046278/106478/caf35b62/611f8aceNe51d3cb7.jpg!q70.jpg"
+    },
+    {
+        "name": "iphone 11",
+        "brand": "apple",
+        "description": "iphone 11",
+        "price": "280$",
+        "color": "Green",
+        "image": "https://img10.jd.co.th/n0/jfs/t52/99/777305827/106314/99e27fda/611f8b4aN7e4ec281.jpg!q70.jpg"
+    },
+    {
+        "name": "iphone 11",
+        "brand": "apple",
+        "description": "iphone 11",
+        "price": "280$",
+        "color": "Yellow",
+        "image": "https://img10.jd.co.th/n0/jfs/t43/129/770491641/110945/84055f02/611f8b08Na25619d6.jpg!q70.jpg"
+    },
+    {
+        "name": "iphone 11",
+        "brand": "apple",
+        "description": "iphone 11",
+        "price": "280$",
+        "color": "Purple",
+        "image": "https://img10.jd.co.th/n0/jfs/t43/151/758298457/105913/cf5a969a/611f8b22Nf172d809.jpg!q70.jpg"
+    },
+    {
+        "name": "iphone 11",
+        "brand": "apple",
+        "description": "iphone 11",
+        "price": "280$",
+        "color": "White",
+        "image": "https://img10.jd.co.th/n0/jfs/t16/43/9665656615/103171/aee17b99/611f8ae3N75fac503.jpg!q70.jpg"
+    },
+    {
+        "name": "Samsung Z Fold3",
+        "brand": "samsung",
+        "description": "Samsung Z Fold3",
+        "price": "350$",
+        "color": "Phantom Black",
+        "image": "./product_img/zfold3_black.png"
+    },
+    {
+        "name": "Samsung Z Fold3",
+        "brand": "samsung",
+        "description": "Samsung Z Fold3",
+        "price": "350$",
+        "color": "Phantom Silver",
+        "image": "./product_img/zfold3_white.png"
+    },
+    {
+        "name": "Samsung Z Fold3",
+        "brand": "samsung",
+        "description": "Samsung Z Fold3",
+        "price": "350$",
+        "color": "Phantom Green",
+        "image": "./product_img/zfold3_green.png"
+    },
+    {
+        "name": "HUAWEI P40 PRO",
+        "brand": "huawei",
+        "description": "huawei p40 pro+",
+        "price": "250$",
+        "color": "Black",
+        "image": "https://img10.jd.co.th/n0/jfs/t19/6/3189225719/47230/815d737/5f02ed49N89cc1e42.jpg!q70.jpg"
+    },
+    {
+        "name": "HUAWEI P40 PRO",
+        "brand": "huawei",
+        "description": "huawei p40 pro+",
+        "price": "250$",
+        "color": "Silver",
+        "image": "https://img10.jd.co.th/n0/jfs/t31/100/2893765825/47605/f5f620c5/5f02ed49N5f15c0f6.jpg!q70.jpg"
+    },
+    {
+        "name": "HUAWEI P40 PRO",
+        "brand": "huawei",
+        "description": "huawei p40 pro+",
+        "price": "250$",
+        "color": "White",
+        "image": "https://img10.jd.co.th/n0/jfs/t19/102/3183502659/47789/11792ba6/5f02ed49N1b502440.jpg!q70.jpg"
+    },
+    {
+        "name": "HUAWEI P40 PRO",
+        "brand": "huawei",
+        "description": "huawei p40 pro+",
+        "price": "250$",
+        "color": "Blue",
+        "image": "https://img10.jd.co.th/n0/jfs/t4/120/3197656493/49779/f4704647/5f02ed49N63f37d5b.jpg!q70.jpg"
+    },
+    {
+        "name": "HUAWEI P40 PRO",
+        "brand": "huawei",
+        "description": "huawei p40 pro+",
+        "price": "250$",
+        "color": "Gold",
+        "image": "https://img10.jd.co.th/n0/jfs/t19/104/3183553604/46353/abffa083/5f02ed49N578a7bc2.jpg!q70.jpg"
+    }
+]

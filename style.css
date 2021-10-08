@@ -25,7 +25,7 @@
     color: #242463;
 }
 .site-color{
-    color: rgb(146, 146, 146);
+    color: #929292;
 }
 .div-img{
     display: flex;
@@ -59,7 +59,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .carousel-button{
     height: 40px;
@@ -75,6 +75,7 @@ body{
     background-color: rgb(255, 102, 0);
     border: none;
     align-items: baseline;
+    margin-left: 50px
 }
 .div-buynow{
     display: flex;
@@ -87,4 +88,14 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.div-buynow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+
 }
