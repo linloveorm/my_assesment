@@ -60,6 +60,9 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     /* justify-content: space-between; */
 }
 .carousel-button{
@@ -103,11 +106,22 @@ body{
 
 .product-container{
     width: 80%;
-    height: 500px;
+    height: 120%;
     display: flex;
+    align-items: center;
+    
 }
 .product-box{
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: "center";
+    flex-direction: row;
+    justify-content: start;
+    /* align-items: "center"; */
+    flex-wrap: wrap;
+}
+.product-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
 }
