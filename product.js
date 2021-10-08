@@ -16,7 +16,6 @@ let order = []
 
 
 function product_showing(product) {
-    console.log(product.length)
     let product_box = document.getElementById("product-box");
     let row_box = document.createElement("div");
 
@@ -132,36 +131,18 @@ function product_showing(product) {
 
 
     }
-    list_order_name()
-
-    // product_box.appendChild(row_box)
-
 }
 
 
 
-console.log("order: ", order_list)
 
-function get_order(order_list) {
-    order = order_list
-    console.log("order: ", order_list)
-    return order
-}
 
 
 let states = "close"
 let option = document.createElement("option")
 
 cart.addEventListener("click", event => {
-    console.log("or: ", order_list)
-    console.log("len: ", order_list.length)
-    // let selection = document.createElement("selection")
     let box = document.createElement("div")
-
-    // selection.style.width = "300px"
-    // selection.style.backgroundColor = "transparent"
-    // selection.style.border = "1px solid #000000"
-    // selection.style.display = "flex"
 
 
     option.style.width = "100%"
@@ -173,19 +154,15 @@ cart.addEventListener("click", event => {
 
 
     let toggle = cart.classList.toggle("close")
-    console.log("toggle: ", toggle)
+  
 
     if (toggle == true) {
-        console.log("state: ", states)
         option = document.createElement("div")
         if (order_list.length > 0) {
-            let height_order = 100 / order_list
 
             box.style.width = "200px"
 
 
-
-            console.log("test")
             for (let i = 0; i < order_list.length; i++) {
                 let name = document.createElement("div")
                 let price = document.createElement("div")
@@ -219,19 +196,16 @@ cart.addEventListener("click", event => {
                 box.appendChild(box_product)
             }
             option.appendChild(box)
-            // selection.appendChild(option)
             cart.appendChild(option)
-            // console.log(selection)
+            
 
         }
         // states = "open"
     }
     if (toggle == false) {
         cart.removeChild(option)
-        // console.log("state: ",cart.)
         states = "close"
     }
-    // console.log("state-out: ",states)
 
 
 })
@@ -239,15 +213,7 @@ cart.addEventListener("click", event => {
 
 
 
-function list_order_name() {
-    if (order_list > 0) {
-        console.log("test:", order_list)
-        let selection = document.createElement("selection")
-        let option = document.createElement("option")
 
-
-    }
-}
 
 
 
