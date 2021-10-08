@@ -7,9 +7,11 @@ fetch("http://127.0.0.1:5500/product.json")
     })
 
 let product_container = document.getElementById("product-container");
+let cart = document.getElementById("cart");
 
-let screen_height = window.screen.height
-let screen_width = window.screen.width
+var order_list = []
+
+let order = []
 
 
 
@@ -17,6 +19,7 @@ function product_showing(product) {
     console.log(product.length)
     let product_box = document.getElementById("product-box");
     let row_box = document.createElement("div");
+
 
     // product_box.style.display = "flex";
     // product_box.style.flexDirection = "column";
@@ -27,9 +30,6 @@ function product_showing(product) {
 
 
     for (let i = 0; i < product.length; i++) {
-
-        console.log("i: ", i)
-        // console.log("item_index: ", item_index)
         let box = document.createElement("div");
 
         let box_product = document.createElement("div");
@@ -41,6 +41,8 @@ function product_showing(product) {
         let product_name = document.createElement("div");
         let product_detail = document.createElement("div");
 
+        btn.setAttribute("id", "order")
+
         box.style.backgroundColor = "transparent";
         box.style.border = "1px solid #929292";
         box.style.display = "flex";
@@ -50,7 +52,7 @@ function product_showing(product) {
         box.style.margin = "20px";
         box.style.borderRadius = "5px"
 
-        
+
 
 
 
@@ -58,7 +60,7 @@ function product_showing(product) {
 
         box_img.style.borderBottom = "1px solid #F78812";
         box_img.style.height = "70%";
-        box_img.style.textAlign ="center";
+        box_img.style.textAlign = "center";
 
         box_product.style.height = "15%";
         box_product.style.display = "flex";
@@ -85,7 +87,7 @@ function product_showing(product) {
         price.style.marginLeft = "5px";
 
         product_name.style.color = "#4B55D6";
-        product_name.style.width ="45%";
+        product_name.style.width = "45%";
         product_name.style.marginLeft = "5px";
 
         product_detail.style.width = "45%";
@@ -102,6 +104,11 @@ function product_showing(product) {
         // col_box.style.display = "flex";
         // col_box.style.flexDirection = "row";
 
+        btn.onclick = function () {
+            order_list.push(product[i]);
+            console.log("order: ", order_list)
+            // cart.addEventListener("click",)          
+        }
 
 
 
@@ -125,10 +132,124 @@ function product_showing(product) {
 
 
     }
+    list_order_name()
+
     // product_box.appendChild(row_box)
 
 }
 
-function set_box() {
 
+
+console.log("order: ", order_list)
+
+function get_order(order_list) {
+    order = order_list
+    console.log("order: ", order_list)
+    return order
 }
+
+
+let states = "close"
+let option = document.createElement("option")
+
+cart.addEventListener("click", event => {
+    console.log("or: ", order_list)
+    console.log("len: ", order_list.length)
+    // let selection = document.createElement("selection")
+    let box = document.createElement("div")
+
+    // selection.style.width = "300px"
+    // selection.style.backgroundColor = "transparent"
+    // selection.style.border = "1px solid #000000"
+    // selection.style.display = "flex"
+
+
+    option.style.width = "100%"
+    option.style.display = "flex"
+    option.style.flexDirection = "column"
+    option.style.backgroundColor = "#FFFFFF"
+    option.style.border = "1px solid #000000"
+
+
+
+    let toggle = cart.classList.toggle("close")
+    console.log("toggle: ", toggle)
+
+    if (toggle == true) {
+        console.log("state: ", states)
+        option = document.createElement("div")
+        if (order_list.length > 0) {
+            let height_order = 100 / order_list
+
+            box.style.width = "200px"
+
+
+
+            console.log("test")
+            for (let i = 0; i < order_list.length; i++) {
+                let name = document.createElement("div")
+                let price = document.createElement("div")
+                let box_product = document.createElement("div")
+
+                box_product.style.borderBottom = "1px solid #D7D7D7"
+                box_product.style.backgroundColor = "#FFFFFF"
+                box_product.style.height = "50px"
+                box_product.style.display = "flex"
+                box_product.style.alignItems = "center"
+                
+
+                name.style.color = "#000000";
+                name.style.fontSize = "14px"
+                name.style.width = "70%";
+                name.style.marginLeft = "5px"
+
+                price.style.color = "#000000";
+                price.style.fontSize = "14px"
+                price.style.width = "70%";
+
+
+                box_product.style.display = "flex"
+                box_product.style.flexDirection = "row"
+
+                name.appendChild(document.createTextNode(order_list[i].name));
+                price.appendChild(document.createTextNode(order_list[i].price));
+
+                box_product.appendChild(name)
+                box_product.appendChild(price)
+                box.appendChild(box_product)
+            }
+            option.appendChild(box)
+            // selection.appendChild(option)
+            cart.appendChild(option)
+            // console.log(selection)
+
+        }
+        // states = "open"
+    }
+    if (toggle == false) {
+        cart.removeChild(option)
+        // console.log("state: ",cart.)
+        states = "close"
+    }
+    // console.log("state-out: ",states)
+
+
+})
+
+
+
+
+function list_order_name() {
+    if (order_list > 0) {
+        console.log("test:", order_list)
+        let selection = document.createElement("selection")
+        let option = document.createElement("option")
+
+
+    }
+}
+
+
+
+
+
